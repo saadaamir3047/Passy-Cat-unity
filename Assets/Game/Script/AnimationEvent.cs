@@ -16,12 +16,12 @@ public class AnimationEvent : MonoBehaviour
         
     }
 
-    public void IncPatCount()
-    {
-        GameManager.instance.IncPatCount();
-    }
+    //public void IncPatCount()
+    //{
+    //    GameManager.instance.IncPatCount();
+    //}
     public void IncAttackCount()
     {
-        GameManager.instance.IncAttachCount();
+        //GameManager.instance.IncAttachCount();
     }
 }

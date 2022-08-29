@@ -68,10 +68,10 @@ public class CatController : MonoBehaviour
                     anim.SetBool("Run", false);
                     anim.SetBool("IsSit", true);
                     /////////////////////////
-                    box1.SetActive(true);
-                    box2.SetActive(true);
-                    box3.SetActive(true);
-                    box4.SetActive(true);
+                    //box1.SetActive(true);
+                    //box2.SetActive(true);
+                    //box3.SetActive(true);
+                    //box4.SetActive(true);
                     /////////////////////////
                     StartCoroutine(NewLocation());
                     move = false;
